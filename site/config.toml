@@ -13,7 +13,7 @@ publishdir = "public"
 
 [params]
     # Meta
-    title = "BG Insights - Data Visualization Studio"
+    title = "Data Visualization Studio"
     subtitle = "<blockquote>“Torture the data, and it will confess to anything” - Ronald Coase</blockquote>"
     subtitle2 = "BG Insights is a Data Studio helping businesses in their entire data process from data collection to visualization in order share its own story."
     author = "Bamby Gassama"

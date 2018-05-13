@@ -1,22 +1,8 @@
-
-# About BG Insights
-BG Insights is a Data Studio helping businesses in their entire data process from data collection to visualization in order share its own story.
-At BG Insights we believe that data is key for any business to grow, by understanding their audiences, environment in order to highlight opportunities!
-
-We guess that you are here because:
-
-  - You don’t want to base your business decisions on assumptions anymore.
-  - You are willing to be more data-driven and would like to know how to measure performance efficiently.
-  - You are already a data-driven company but need extra help for your data related tasks.
-  - You would like a nice website because we also offer this service!
-  - You are just curious, in this case, feel free to send us a message!
-
-If the above is correct, you are in the right place!
+# About
 
 
-Having a background in Marketing and experiences working closely with IT departments on various digital projects in industries such as E-commerce, Healthcare, Automotive or Finance with different budget and needs, we would love to hear your story!
+</br></br>BG Insights is a Data Studio helping businesses in their entire data process from data collection to visualization in order share its own story.
 
-# About Bamby
 You might wonder:  Who is behind BG Insights? Well, it’s me Bamby, Data Analyst and Data Visualization Engineer, nice to meet you!
 
 I am from Paris but also lived in Manchester, London and currently based in Berlin.
@@ -28,5 +14,17 @@ The first time I got amazed by a data-driven campaign was back in 2015 when I wa
 On top of that data-driven mindset, I decided to learn programming to make the full use of the technologies available today to provide customers with experiences they actually deserve. It all started with an interest in Frontend Development but I ended up loving Python to work with data!
 
 Today I am using Python, Pandas, Matplotlib, Scikit-Learn, Plotly, Tableau, SQL, HTML, CSS, and others tools to collect, clean, analysis and visualize data because I believe it’s the less risky way to take business decisions.
+
+I guess that you are here because:
+
+  - You don’t want to base your business decisions on assumptions anymore.
+  - You are willing to be more data-driven and would like to know how to measure performance efficiently.
+  - You are already a data-driven company but need extra help for your data related tasks.
+  - You would like a nice website because we also offer this service!
+  - You are just curious, in this case, feel free to send us a message!
+
+If the above is correct, you are in the right place!
+
+Having a background in Marketing and experiences working closely with IT departments on various digital projects in industries such as E-commerce, Healthcare, Automotive or Finance with different budget and needs, we would love to hear your story!
 
 Bamby Gassama

@@ -28,8 +28,8 @@
   <body>
   <div class="principal">
     {{ partial "nav.html" . }}
-    <span>{{ partial "header.html" . }}</span>
   <div class="container">
+		  {{ partial "nav.html" . }}
       {{block "main" . }}
       {{end}}
   </div>

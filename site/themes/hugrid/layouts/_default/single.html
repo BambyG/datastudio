@@ -1,11 +1,11 @@
-{{ define "main" }}
-		<div class="containero">
 
-        <h1>{{ .Params.Title }}</h1>
-        <p>Created Using: {{ .Params.Keywords }}</p>
-        <p>Summary: {{.Params.Description }}</p>
-        <div class="yep">
-          {{ .Content }}
-        </div>
-    </div>
-{{end}}
+{{ define "main" }}
+<div class="containero">
+		<div class="yep">
+			{{ .Content }}
+		</div>
+		<div class="serv">
+			{{ partial "services.html" . }}
+		</div>
+</div>
+{{ end }}
