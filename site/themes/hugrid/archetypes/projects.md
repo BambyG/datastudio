@@ -1,0 +1,4 @@
+---
+year: "{{ .Date }}"
+draft: false
+---

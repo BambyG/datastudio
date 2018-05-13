@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+	{{ partial "head.html" . }}
+	{{ template "_internal/google_analytics.html" . }}
+
+	<!-- Google fonts -->
+<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|{{ .Site.Params.font.body }}|{{ .Site.Params.font.heading }}|{{ .Site.Params.font.blockquote }}|{{ .Site.Params.font.nav }}|{{ .Site.Params.font.paragraph }}' rel='stylesheet' type='text/css'>
+<style>
+body {
+    font-family: '{{ replace .Site.Params.font.body "+" " "}}';
+}
+
+h1 {
+    font-family: '{{ replace .Site.Params.font.heading "+" " "}}';
+}
+
+blockquote {
+    font-family: '{{ replace .Site.Params.font.blockquote "+" " "}}';
+
+}
+.dropdown a {
+    font-family: '{{ replace .Site.Params.font.nav "+" " "}}'
+
+}
+.post-content p {
+    font-family: '{{ replace .Site.Params.font.paragraph "+" " "}}'
+}
+</style>
+	</head>
+	<body>
+{{ partial "nav.html" . }}
+		<div class="container">
+
+				{{ partial "header.html" . }}
+			<div class="main">
+				<h2>Projects</h2>
+				<ul id="og-grid" class="og-grid">
+					{{ range $.Site.Data.items.items }}
+					<li>
+						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">
+							<img src="{{.thumb}}" alt="{{.alt}}" />
+						</a>
+					</li>
+					{{ end }}
+					<p><br>{{ with .Site.Params.subtitle }}{{ . | markdownify }}{{ end }}</p>
+				</ul>
+				<div class="footera">
+				<span>{{ partial "footer.html" . }}	</span>
+				</div>
+			</div>
+		{{ partial "scripts.html" . }}
+	</div>
+	</body>
+</html>
